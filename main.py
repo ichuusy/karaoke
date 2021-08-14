@@ -3,7 +3,7 @@ import speech_recognition as sr
 
 r = sr.Recognizer()
 clear = lambda: os.system('cls')
-lyrics,nowlyrics,worse = ["mousepad"],[],[]
+lyrics,nowlyrics,worse = [],[],[]
 
 while len(lyrics) > 0:
     with sr.Microphone() as source:
